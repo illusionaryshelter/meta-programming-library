@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\vector">
+      <UniqueIdentifier>{9e7d1b27-c164-44ee-a9ee-71bbefe58389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\range">
+      <UniqueIdentifier>{a4473d5f-cb25-40b8-80fb-515269a78fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\intrinsic">
+      <UniqueIdentifier>{973d3f7f-234d-47a7-93c1-4999524935e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\reflection">
+      <UniqueIdentifier>{9aea7d77-c7d5-40f8-b0e1-e0c680987137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithm">
+      <UniqueIdentifier>{2ecd2183-d6c4-41bd-9768-5b0ce716f0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\inserter">
+      <UniqueIdentifier>{24909c3f-ec8f-4f8b-b731-82a1aae92b00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="processor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="placeholder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="apply.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="apply_fwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="apply_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aux_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="has.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="if_.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="integral_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="template_arity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numeric_cast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lambda_fwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bind_fwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="identity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lambda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="protect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpl_type_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="plus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitwise.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sizeof_.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="always.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator_tag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comparison.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bidirectional_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iter_fold_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iter_fold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector0.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_iter.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_n.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_at.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_back.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_begin_end.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_clear.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_empty.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_front.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="v_size.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>头文件\range</Filter>
+    </ClInclude>
+    <ClInclude Include="r_iter.h">
+      <Filter>头文件\range</Filter>
+    </ClInclude>
+    <ClInclude Include="r_back.h">
+      <Filter>头文件\range</Filter>
+    </ClInclude>
+    <ClInclude Include="r_empty.h">
+      <Filter>头文件\range</Filter>
+    </ClInclude>
+    <ClInclude Include="r_front.h">
+      <Filter>头文件\range</Filter>
+    </ClInclude>
+    <ClInclude Include="r_size.h">
+      <Filter>头文件\range</Filter>
+    </ClInclude>
+    <ClInclude Include="minus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="advance.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="at.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="back.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="begin_end.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="distance.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="empty.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="front.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="pop_back.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="pop_front.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="push_back.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="push_front.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="size.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="seq_intrins.h">
+      <Filter>头文件\intrinsic</Filter>
+    </ClInclude>
+    <ClInclude Include="multiple.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="divide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitxor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_left.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_right.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arithmetic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector0_c.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_n_c.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_c.h">
+      <Filter>头文件\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="fold.h">
+      <Filter>头文件\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>头文件\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="insert.h">
+      <Filter>头文件\inserter</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator_range.h">
+      <Filter>头文件\inserter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

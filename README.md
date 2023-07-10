@@ -10,7 +10,6 @@ p_MPL is a simplified metaprogramming library based on boost/mpl. It utilizes mo
 
 ```c++
 #include "mpl.h"
-using namespace ph;
 using type=apply<plus<_,_>,int_<1>,int_<2>>::type;
 ```
 

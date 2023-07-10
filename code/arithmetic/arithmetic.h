@@ -1,0 +1,12 @@
+#pragma once
+#include "divide.h"
+#include "modulus.h"
+#include "plus.h"
+#include "sizeof_.h"
+#include "minus.h"
+#include "multiple.h"
+#include "assignment.h"
+#include "bitwise.h"
+#include "comparison.h"
+#include "logic.h"
+#include "sizeof_.h"
